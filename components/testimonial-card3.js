@@ -14,8 +14,8 @@ const TestimonialCard3 = (props) => {
         <div className="testimonial-card3-testimonial">
           <span className="testimonial-card3-text">{props.quote}</span>
           <img
-            alt={props.pictureAlt}
-            src={props.pictureSrc}
+            alt={props.picture_alt}
+            src={props.picture_src}
             className="testimonial-card3-image"
           />
           <span className="testimonial-card3-text1">{props.name}</span>
@@ -81,17 +81,17 @@ TestimonialCard3.defaultProps = {
   quote:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem lorem, malesuada in metus vitae, scelerisque accumsan ipsum.  Nam pellentesque nulla leo, sagittis vehicula sem commodo nec.',
   name: 'John Doe',
-  pictureSrc:
+  picture_src:
     'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxwb3J0cmFpdHxlbnwwfHx8fDE2MjYzNzg5NzI&ixlib=rb-1.2.1&h=1200',
-  pictureAlt: 'profile',
+  picture_alt: 'profile',
   rootClassName: '',
 }
 
 TestimonialCard3.propTypes = {
   quote: PropTypes.string,
   name: PropTypes.string,
-  pictureSrc: PropTypes.string,
-  pictureAlt: PropTypes.string,
+  picture_src: PropTypes.string,
+  picture_alt: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 

@@ -7,8 +7,8 @@ const BlogPostCard2 = (props) => {
     <>
       <div className={`blog-post-card2-blog-post-card ${props.rootClassName} `}>
         <img
-          alt={props.imageAlt}
-          src={props.imageSrc}
+          alt={props.image_alt}
+          src={props.image_src}
           image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
           className="blog-post-card2-image"
         />
@@ -117,14 +117,14 @@ const BlogPostCard2 = (props) => {
 }
 
 BlogPostCard2.defaultProps = {
-  profileAlt: 'profile',
-  imageSrc:
+  profile_alt: 'profile',
+  image_src:
     'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&ixlib=rb-1.2.1&w=1000',
   rootClassName: '',
-  imageAlt: 'image',
+  image_alt: 'image',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non volutpat turpis. Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor. Lorem ipsum dolor sit amet, consectetur adipiscing ...',
-  profileSrc:
+  profile_src:
     'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&ixlib=rb-1.2.1&h=1200',
   when: '3 days ago',
   title: 'Lorem ipsum dolor sit amet',
@@ -133,12 +133,12 @@ BlogPostCard2.defaultProps = {
 }
 
 BlogPostCard2.propTypes = {
-  profileAlt: PropTypes.string,
-  imageSrc: PropTypes.string,
+  profile_alt: PropTypes.string,
+  image_src: PropTypes.string,
   rootClassName: PropTypes.string,
-  imageAlt: PropTypes.string,
+  image_alt: PropTypes.string,
   description: PropTypes.string,
-  profileSrc: PropTypes.string,
+  profile_src: PropTypes.string,
   when: PropTypes.string,
   title: PropTypes.string,
   label: PropTypes.string,

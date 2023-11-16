@@ -6,8 +6,8 @@ const ActiveUsers = (props) => {
   return (
     <>
       <div className="active-users-active-users metrics">
-        <span className="active-users-text">{props.statistic}</span>
-        <span className="active-users-text1">{props.caption}</span>
+        <span className="active-users-text">{props.Statistic}</span>
+        <span className="active-users-text1">{props.Caption}</span>
       </div>
       <style jsx>
         {`
@@ -49,13 +49,13 @@ const ActiveUsers = (props) => {
 }
 
 ActiveUsers.defaultProps = {
-  caption: 'Caption',
-  statistic: 'Description',
+  Caption: 'Caption',
+  Statistic: 'Description',
 }
 
 ActiveUsers.propTypes = {
-  caption: PropTypes.string,
-  statistic: PropTypes.string,
+  Caption: PropTypes.string,
+  Statistic: PropTypes.string,
 }
 
 export default ActiveUsers
