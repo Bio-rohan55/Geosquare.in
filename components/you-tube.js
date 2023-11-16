@@ -7,8 +7,8 @@ const YouTube = (props) => {
     <>
       <div className="you-tube-you-tube">
         <img
-          alt={props.pastedImage_alt}
-          src={props.pastedImage_src}
+          alt={props.pastedImageAlt}
+          src={props.pastedImageSrc}
           className="you-tube-pasted-image"
         />
       </div>
@@ -44,13 +44,13 @@ const YouTube = (props) => {
 }
 
 YouTube.defaultProps = {
-  pastedImage_src: '/logos/pastedimage-smjb.svg',
-  pastedImage_alt: 'pastedImage',
+  pastedImageSrc: '/logos/pastedimage-smjb.svg',
+  pastedImageAlt: 'pastedImage',
 }
 
 YouTube.propTypes = {
-  pastedImage_src: PropTypes.string,
-  pastedImage_alt: PropTypes.string,
+  pastedImageSrc: PropTypes.string,
+  pastedImageAlt: PropTypes.string,
 }
 
 export default YouTube

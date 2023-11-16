@@ -59,21 +59,21 @@ const News = (props) => {
             <BlogPostCard2
               when="1 day ago"
               title="Godrej Properties to exceed guidance, record best-ever deliveries in FY24, says Pirojsha Godrej"
-              image_src="https://img.etimg.com/thumb/msid-104916707,width-300,height-225,imgsize-31556,,resizemode-75/our-priority-is-to-launch-all-projects-added-over-last-two-years-within-this-financial-year-pirojsha-godrej.jpg"
+              imageSrc="https://img.etimg.com/thumb/msid-104916707,width-300,height-225,imgsize-31556,,resizemode-75/our-priority-is-to-launch-all-projects-added-over-last-two-years-within-this-financial-year-pirojsha-godrej.jpg"
               description="Godrej Properties is set to surpass its guidance for new bookings, cash collections, and project deliveries in the current financial year, driven by strong housing demand and project response. The company is launching 14 new projects and 10 new phases of ongoing projects in the second half of the fiscal year, its biggest pipeline of launches in any half-yearly period."
               rootClassName="rootClassName3"
             ></BlogPostCard2>
             <BlogPostCard2
               when="1 day ago"
               title="Shapoorji Pallonji Real Estate eyes Rs 1,500 crore revenue from two housing projects in Pune"
-              image_src="https://img.etimg.com/thumb/msid-104887775,width-300,height-225,imgsize-23980,,resizemode-75/shapoorji-pallonji-real-estate-eyes-rs-1500-crore-revenue-from-two-housing-projects-in-pune.jpg"
+              imageSrc="https://img.etimg.com/thumb/msid-104887775,width-300,height-225,imgsize-23980,,resizemode-75/shapoorji-pallonji-real-estate-eyes-rs-1500-crore-revenue-from-two-housing-projects-in-pune.jpg"
               description="With a development potential of over 142 million square feet, Shapoorji Pallonji Real Estate has made inroads into most Indian cities -- Mumbai, Pune, Bangalore, Gurugram, and Kolkata, the statement said. Joyville is a USD 200 million platform by Shapoorji Pallonji, ADB, IFC and Actis to develop aspirational housing projects in India. It has already launched multiple projects across major cities."
               rootClassName="rootClassName4"
             ></BlogPostCard2>
             <BlogPostCard2
               when="2 days ago"
               title="Mahindra Lifespace Developers records Rs 455 crore pre-sales in July-September"
-              image_src="https://img.etimg.com/thumb/msid-104755541,width-300,height-225,imgsize-91518,,resizemode-75/mahindra-lifespace-developers-records-rs-455-crore-pre-sales-in-july-september.jpg"
+              imageSrc="https://img.etimg.com/thumb/msid-104755541,width-300,height-225,imgsize-91518,,resizemode-75/mahindra-lifespace-developers-records-rs-455-crore-pre-sales-in-july-september.jpg"
               description="The company’s collections in residential business during the quarter stood at Rs 311 crore. The developer launched 0.47 million sq ft of saleable area as part of its phase 3 at Tathawade in Pune."
               rootClassName="rootClassName1"
             ></BlogPostCard2>

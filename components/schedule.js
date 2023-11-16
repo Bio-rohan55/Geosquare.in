@@ -7,8 +7,8 @@ const Schedule = (props) => {
     <>
       <div className="schedule-schedule card">
         <img
-          alt={props.Icon_alt}
-          src={props.Icon_src}
+          alt={props.iconAlt}
+          src={props.iconSrc}
           className="schedule-icon"
         />
         <span className="schedule-text">{props.text}</span>
@@ -49,16 +49,16 @@ const Schedule = (props) => {
 
 Schedule.defaultProps = {
   text: 'Schedule',
-  Icon_src: '/pastedimage-fii6m-200h.png',
-  Icon_alt: 'pastedImage',
+  iconSrc: '/pastedimage-fii6m-200h.png',
+  iconAlt: 'pastedImage',
   text1:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
 }
 
 Schedule.propTypes = {
   text: PropTypes.string,
-  Icon_src: PropTypes.string,
-  Icon_alt: PropTypes.string,
+  iconSrc: PropTypes.string,
+  iconAlt: PropTypes.string,
   text1: PropTypes.string,
 }
 
