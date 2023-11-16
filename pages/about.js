@@ -114,31 +114,15 @@ const About = (props) => {
             </span>
           </span>
           <span className="about-text13">
-            <span>
-              Our mission at Geosquare is crystal clear: to empower Buyers,
-              Sellers, Brokers, Developers, and Financial Institutions with
-              fast, informed, and secure decisions. We understand that
-              successful real estate transactions are paved with data and
-              insights. That&apos;s why we&apos;ve dedicated ourselves to
-              aggregating and standardizing publicly available property
-              registration data, primarily focusing on residential properties.
-            </span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
+            Our mission at Geosquare is crystal clear: to empower Buyers,
+            Sellers, Brokers, Developers, and Financial Institutions with fast,
+            informed, and secure decisions. We understand that successful real
+            estate transactions are paved with data and insights. That&apos;s
+            why we&apos;ve dedicated ourselves to aggregating and standardizing
+            publicly available property registration data, primarily focusing on
+            residential properties..
           </span>
-          <span className="about-text17">
+          <span className="about-text14">
             <span>
               <span
                 dangerouslySetInnerHTML={{
@@ -165,7 +149,7 @@ const About = (props) => {
                   className="about-image1"
                 />
                 <div className="about-contact">
-                  <span className="about-text20">Contact</span>
+                  <span className="about-text17">Contact</span>
                   <a
                     href="mailto:sales@geosquare.in?subject="
                     className="about-link1"
@@ -175,29 +159,29 @@ const About = (props) => {
                 </div>
               </div>
               <div className="about-category1">
-                <span className="about-text21">Company</span>
+                <span className="about-text18">Company</span>
                 <div className="about-links1">
                   <Link href="/about">
                     <a className="about-link2">About</a>
                   </Link>
-                  <span className="about-text22">Team</span>
+                  <span className="about-text19">Team</span>
                   <Link href="/news">
                     <a className="about-link3">News</a>
                   </Link>
                   <Link href="/partners">
                     <a className="about-link4">Partners</a>
                   </Link>
-                  <span className="about-text23">Careers</span>
+                  <span className="about-text20">Careers</span>
                 </div>
               </div>
               <div className="about-category2">
-                <span className="about-text24">Socials</span>
+                <span className="about-text21">Socials</span>
                 <div className="about-links2">
-                  <span className="about-text25">Twitter</span>
-                  <span className="about-text26">Linkedin</span>
-                  <span className="about-text27">Instagram</span>
-                  <span className="about-text28">Facebook</span>
-                  <span className="about-text29">
+                  <span className="about-text22">Twitter</span>
+                  <span className="about-text23">Linkedin</span>
+                  <span className="about-text24">Instagram</span>
+                  <span className="about-text25">Facebook</span>
+                  <span className="about-text26">
                     <span>Whatsapp</span>
                     <br></br>
                     <br></br>
@@ -214,7 +198,7 @@ const About = (props) => {
                   className="about-form"
                 >
                   <div className="about-container5">
-                    <h1 className="about-text33">Contact us</h1>
+                    <h1 className="about-text30">Contact us</h1>
                     <input
                       type="text"
                       id="entry.1364274971"
@@ -244,7 +228,7 @@ const About = (props) => {
             </div>
           </div>
           <div className="about-bottom">
-            <span className="about-text34">Copyright © Geosquare - 2023</span>
+            <span className="about-text31">Copyright © Geosquare - 2023</span>
           </div>
           <span>Text</span>
         </footer>
@@ -446,7 +430,7 @@ const About = (props) => {
             font-style: normal;
             font-weight: 600;
           }
-          .about-text17 {
+          .about-text14 {
             left: 0px;
             right: 0px;
             bottom: 91px;
@@ -505,7 +489,7 @@ const About = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .about-text20 {
+          .about-text17 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -523,7 +507,7 @@ const About = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .about-text21 {
+          .about-text18 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -541,7 +525,7 @@ const About = (props) => {
             font-size: 14px;
             text-decoration: none;
           }
-          .about-text22 {
+          .about-text19 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
@@ -555,7 +539,7 @@ const About = (props) => {
             font-size: 14px;
             text-decoration: none;
           }
-          .about-text23 {
+          .about-text20 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
@@ -564,7 +548,7 @@ const About = (props) => {
             display: flex;
             flex-direction: column;
           }
-          .about-text24 {
+          .about-text21 {
             color: rgb(255, 255, 255);
             font-size: 20px;
             font-style: normal;
@@ -579,23 +563,23 @@ const About = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+          .about-text22 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .about-text23 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
+          .about-text24 {
+            color: rgb(196, 196, 196);
+            font-size: 14px;
+          }
           .about-text25 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
           .about-text26 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .about-text27 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .about-text28 {
-            color: rgb(196, 196, 196);
-            font-size: 14px;
-          }
-          .about-text29 {
             color: rgb(196, 196, 196);
             font-size: 14px;
           }
@@ -616,7 +600,7 @@ const About = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .about-text33 {
+          .about-text30 {
             color: var(--dl-color-gray-white);
           }
           .about-textinput1 {
@@ -639,7 +623,7 @@ const About = (props) => {
             user-select: none;
             flex-direction: column;
           }
-          .about-text34 {
+          .about-text31 {
             color: rgb(104, 104, 104);
             font-size: 14px;
             line-height: 30px;
@@ -669,7 +653,7 @@ const About = (props) => {
               gap: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .about-text20 {
+            .about-text17 {
               margin-bottom: var(--dl-space-space-unit);
             }
             .about-link1 {
@@ -681,7 +665,7 @@ const About = (props) => {
             .about-links2 {
               gap: var(--dl-space-space-unit);
             }
-            .about-text34 {
+            .about-text31 {
               font-size: 12px;
               line-height: 25px;
               margin-bottom: 0px;
@@ -728,7 +712,7 @@ const About = (props) => {
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
             }
-            .about-text17 {
+            .about-text14 {
               max-width: 100%;
               text-align: center;
               padding-left: var(--dl-space-space-threeunits);
@@ -759,7 +743,7 @@ const About = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .about-text17 {
+            .about-text14 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
