@@ -10,6 +10,10 @@ const Buy = (props) => {
           <meta property="og:title" content="Buy - Geosquare" />
         </Head>
         <h1>Hii this is a github teleport sync testing </h1>
+        <iframe
+          src="https://www.youtube.com/embed/DeQkMK5LME4"
+          className="buy-iframe"
+        ></iframe>
       </div>
       <style jsx>
         {`
@@ -20,6 +24,10 @@ const Buy = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+          }
+          .buy-iframe {
+            width: 1106px;
+            height: 554px;
           }
         `}
       </style>
